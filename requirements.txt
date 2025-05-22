@@ -1,0 +1,8 @@
+chromadb
+requests
+# tiktoken
+groq
+ollama
+langchain
+langchain_community
+pypdf
