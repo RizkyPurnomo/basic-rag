@@ -4,7 +4,7 @@ A modular and local-first Retrieval-Augmented Generation (RAG) system built with
 ---
 
 ## Project Structure
-
+<pre>
 PROJECT
 │
 ├── data/ # Raw data and local ChromaDB storage
@@ -22,7 +22,7 @@ PROJECT
 │
 ├── config.env # Environment variables
 └── requirements.txt # Python dependencies
-
+</pre>
 ## Features
 - **RAG with Local Models**: Use `llama3.1:8b` for generation and `deepseek-r1:1.5b` for grading with [Ollama](https://ollama.com/).
 - **Vector Search**: Fast retrieval with [ChromaDB](https://www.trychroma.com/).
